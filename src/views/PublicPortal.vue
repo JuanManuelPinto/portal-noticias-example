@@ -2,7 +2,7 @@
   <div class="portal-page">
     <nav class="top-nav">
       <div class="nav-container">
-        <h1 class="logo"><span>CádizCF</span>News</h1>
+        <h1 class="logo">CádizCF - Noticias</h1>
         <div class="nav-links">
           <router-link v-if="session" to="/admin" class="btn-black">Dashboard</router-link>
           <router-link v-else to="/login" class="btn-outline">Admin Access</router-link>
